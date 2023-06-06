@@ -17,28 +17,20 @@ body {
   border-radius: 5px;
 }
 
-.container > div {
-  background-color: #f1f1f1;
-  margin: 1px;
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 button {
   font-size: 20px;
 }
+
 #display {
   pointer-events: none;
   background-color: rgb(139, 139, 139);
   grid-column: 1 / -1;
-}
-
-#displayNum {
-  margin-left: auto;
-  padding-right: 15px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
   font-size: 30px;
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
 
 #clear {
